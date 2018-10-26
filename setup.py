@@ -11,7 +11,7 @@ setup(
     ],
     url='https://github.com/jneight/django-db-geventpool',
     description='Add a DB connection pool using gevent to django',
-    long_description=open("README.rst").read(),
+    long_description=open("README.rst", "r", encoding="utf-8").read(),
     packages=find_packages(),
     include_package_data=True,
     license='Apache 2.0',
